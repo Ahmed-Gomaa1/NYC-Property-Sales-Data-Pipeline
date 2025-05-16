@@ -1,0 +1,26 @@
+CREATE SCHEMA staging;
+GO
+CREATE TABLE staging.property_sales_raw (
+    borough NVARCHAR(100),
+    neighborhood NVARCHAR(255),
+    building_class_category NVARCHAR(255),
+    tax_class_at_present NVARCHAR(50),
+    block INT,
+    lot INT,
+    ease_ment NVARCHAR(100),
+    building_class_at_present NVARCHAR(50),
+    address NVARCHAR(255),
+    apartment_number NVARCHAR(50),
+    zip_code INT,
+    residential_units INT,
+    commercial_units INT,
+    total_units INT,
+    land_square_feet FLOAT,
+    gross_square_feet FLOAT,
+    year_built INT,
+    tax_class_at_time_of_sale NVARCHAR(50),
+    building_class_at_time_of_sale NVARCHAR(50),
+    sale_price BIGINT,
+    sale_date DATE,
+    file_source NVARCHAR(100), 
+);

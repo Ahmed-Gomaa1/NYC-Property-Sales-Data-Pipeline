@@ -1,0 +1,268 @@
+📘 Log started at 2025-05-15 22:10:30.472388
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2010_bronx.xls...
+✅ 4755 rows loaded from 2010_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2011_bronx.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 4963 rows loaded from 2011_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2012_bronx.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 5151 rows loaded from 2012_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2013_bronx.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 5932 rows loaded from 2013_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2014_bronx.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 6208 rows loaded from 2014_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2015_bronx.xls...
+✅ 6736 rows loaded from 2015_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2016_bronx.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 7203 rows loaded from 2016_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2017_bronx.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 7730 rows loaded from 2017_bronx
+⚠️ File not found for 2018 bronx: Skipping
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2019_bronx.xlsx...
+✅ 8269 rows loaded from 2019_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2020_bronx.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 6645 rows loaded from 2020_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2021_bronx.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 7692 rows loaded from 2021_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2022_bronx.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 7300 rows loaded from 2022_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2023_bronx.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 5920 rows loaded from 2023_bronx
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2010_brooklyn.xls...
+✅ 19649 rows loaded from 2010_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2011_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 20726 rows loaded from 2011_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2012_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 23492 rows loaded from 2012_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2013_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 24842 rows loaded from 2013_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2014_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 25361 rows loaded from 2014_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2015_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 25362 rows loaded from 2015_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2016_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 25519 rows loaded from 2016_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2017_brooklyn.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 24792 rows loaded from 2017_brooklyn
+⚠️ File not found for 2018 brooklyn: Skipping
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2019_brooklyn.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 23276 rows loaded from 2019_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2020_brooklyn.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 19899 rows loaded from 2020_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2021_brooklyn.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 28965 rows loaded from 2021_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2022_brooklyn.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 26855 rows loaded from 2022_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2023_brooklyn.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 21635 rows loaded from 2023_brooklyn
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2010_manhattan.xls...
+✅ 17296 rows loaded from 2010_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2011_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 21500 rows loaded from 2011_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2012_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 26258 rows loaded from 2012_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2013_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 26715 rows loaded from 2013_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2014_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 24524 rows loaded from 2014_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2015_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 24989 rows loaded from 2015_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2016_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 21241 rows loaded from 2016_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2017_manhattan.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 18642 rows loaded from 2017_manhattan
+⚠️ File not found for 2018 manhattan: Skipping
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2019_manhattan.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 17583 rows loaded from 2019_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2020_manhattan.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 12880 rows loaded from 2020_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2021_manhattan.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 22756 rows loaded from 2021_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2022_manhattan.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 21787 rows loaded from 2022_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2023_manhattan.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 17009 rows loaded from 2023_manhattan
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2010_queens.xls...
+✅ 21198 rows loaded from 2010_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2011_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 21580 rows loaded from 2011_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2012_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 22949 rows loaded from 2012_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2013_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 25415 rows loaded from 2013_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2014_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 25157 rows loaded from 2014_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2015_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 26354 rows loaded from 2015_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2016_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 27214 rows loaded from 2016_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2017_queens.xls...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 27899 rows loaded from 2017_queens
+⚠️ File not found for 2018 queens: Skipping
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2019_queens.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 26421 rows loaded from 2019_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2020_queens.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 21701 rows loaded from 2020_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2021_queens.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 29812 rows loaded from 2021_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2022_queens.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 28840 rows loaded from 2022_queens
+
+==================================================
+📂 Processing C:\Users\3hmed\OneDrive\Desktop\Data Projects\real_estate_transactions_cleansing_modeling\Data\2023_queens.xlsx...
+⚠️ Dropping unexpected columns: ['ease-ment']
+✅ 24256 rows loaded from 2023_queens
+
+==================================================
+🏁 Import Complete!
+📊 Summary:
+   - Files processed: 52
+   - Files with errors: 0
+   - Total records loaded: 996853
+==================================================
+📘 Log file: processing_log.txt
