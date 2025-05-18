@@ -14,11 +14,6 @@ cleaned_building_class AS (
         UPPER(building_class_at_present) AS clean_building_class_at_present,
         UPPER(building_class_at_time_of_sale) AS clean_building_class_at_time_of_sale
     FROM cleaned_address
-),
-valid_dates AS (
-    SELECT *
-    FROM cleaned_building_class
-    WHERE sale_date BETWEEN '2010-01-01' AND '2023-12-31'
 )
 
 INSERT INTO cleansed.property_sales_clean (
@@ -38,4 +33,6 @@ SELECT
     total_units, land_square_feet, gross_square_feet,
     year_built, tax_class_at_time_of_sale,
     clean_building_class_at_time_of_sale, sale_price, sale_date
-FROM valid_dates;
+FROM cleaned_building_class;
+
+delete from DM.dim_date
