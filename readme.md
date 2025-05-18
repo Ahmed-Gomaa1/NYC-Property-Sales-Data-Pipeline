@@ -100,7 +100,7 @@ The pipeline implements several data quality measures:
 
 ## Analytics Dashboard
 
-![NYC Property Sales Dashboard](Images\TrendsDashboard.png)
+![YC Property Sales Dashboard](Images/TrendsDashboard.png)
 
 The dimensional model powers an analytics dashboard that provides insights into NYC real estate trends:
 
