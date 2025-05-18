@@ -5,7 +5,7 @@ This project implements a comprehensive ETL (Extract, Transform, Load) pipeline 
 
 The pipeline extracts raw property sales data from the NYC Department of Finance, processes and standardizes the data, loads it into a SQL Server database, and transforms it into a dimensional model for analytics.
 
-![Pipeline Overview](Images\ProjectOverview.jpg)
+![Pipeline Overview](Images\ProjecOverview.jpg)
 
 ## Data Source
 
@@ -158,35 +158,3 @@ The dimensional model powers an analytics dashboard that provides insights into 
    - Predictive models for price trends
    - Anomaly detection for market shifts
    - Natural language generation for market reports
-
-## Appendix: Database Dictionary
-
-### Staging Schema
-
-**Table: staging.property_sales_raw**
-- Contains raw data with minimal transformations
-- Preserves original structure from source files
-- Includes all columns from NYC Finance Department
-
-### Cleansed Schema
-
-**Table: cleansed.property_sales_clean**
-- Standardized and validated property sales data
-- Clean addresses and normalized building classes
-- Filtered for valid transactions
-
-### Dimensional Model
-
-**Fact Table: dm.fact_property_sales**
-- sale_id (PK)
-- sale_price
-- sale_date_key (FK)
-- property_id (FK)
-- location_id (FK)
-
-**Dimension Tables:**
-- dm.dim_date
-- dm.dim_location
-- dm.dim_property
-
-This dimensional model supports flexible analysis across multiple dimensions while maintaining data integrity and performance.
