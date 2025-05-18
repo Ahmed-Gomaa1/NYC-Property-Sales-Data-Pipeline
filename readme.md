@@ -5,7 +5,7 @@ This project implements a comprehensive ETL (Extract, Transform, Load) pipeline 
 
 The pipeline extracts raw property sales data from the NYC Department of Finance, processes and standardizes the data, loads it into a SQL Server database, and transforms it into a dimensional model for analytics.
 
-![Pipeline Overview](Images\ProjecOverview.jpg)
+![Pipeline Overview](Images/ProjecOverview.jpg)
 
 ## Data Source
 
