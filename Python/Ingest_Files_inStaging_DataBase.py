@@ -19,8 +19,8 @@ database = 'RealEstateDB'
 table_name = 'property_sales_raw'
 schema_name = 'staging'
 
-log_file = "Logs\processing_log.txt"
-with open(log_file, 'w', encoding='utf-8') as log:
+log_file = "processing_log.txt"
+with open(log_file, 'a', encoding='utf-8') as log:
     log.write(f"📘 Log started at {datetime.now()}\n")
 
 # 🛠️ Step 2: Create SQLAlchemy engine
@@ -85,7 +85,8 @@ def clean_and_standardize_dataframe(df, borough):
             df[col] = pd.to_numeric(df[col], errors='coerce')
 
     if 'sale_date' in df.columns:
-        df['sale_date'] = pd.to_datetime(df['sale_date'], errors='coerce')
+        if df['sale_date'].dtype in ['float64', 'int64']:
+            df['sale_date'] = pd.to_datetime('1899-12-30') + pd.to_timedelta(df['sale_date'], unit='D')
 
     for col in df.select_dtypes(include='object').columns:
         df[col] = df[col].str.strip()
