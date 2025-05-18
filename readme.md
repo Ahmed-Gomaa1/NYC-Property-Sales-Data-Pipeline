@@ -1,9 +1,11 @@
 # NYC Property Sales Data Pipeline
 
 ## Project Overview
-This project implements a comprehensive ETL (Extract, Transform, Load) pipeline for New York City property sales data spanning from 2010 to 2023 across four boroughs: Manhattan, Brooklyn, Queens, and the Bronx. The pipeline extracts raw property sales data from the NYC Department of Finance, processes and standardizes the data, loads it into a SQL Server database, and transforms it into a dimensional model for analytics.
+This project implements a comprehensive ETL (Extract, Transform, Load) pipeline for New York City property sales data spanning from 2010 to 2023 across four boroughs: Manhattan, Brooklyn, Queens, and the Bronx. 
 
-![Pipeline Overview](https://via.placeholder.com/800x300?text=NYC+Property+Sales+Pipeline+Overview)
+The pipeline extracts raw property sales data from the NYC Department of Finance, processes and standardizes the data, loads it into a SQL Server database, and transforms it into a dimensional model for analytics.
+
+![Pipeline Overview](Images\ProjectOverview.jpg)
 
 ## Data Source
 
@@ -135,9 +137,9 @@ The dimensional model powers an analytics dashboard that provides insights into 
 ## Technical Architecture
 
 - **Database:** Microsoft SQL Server
-- **Data Processing:** Python with pandas, sqlalchemy, numpy
+- **Data Processing:** Python with pandas, sqlalchemy
 - **Orchestration:** Custom Python scripts with logging
-- **Analytics:** Power BI / Tableau
+- **Analytics:** Power BI 
 - **Storage:** Local file system for raw data, SQL Server for processed data
 
 ## Future Enhancements
@@ -157,34 +159,3 @@ The dimensional model powers an analytics dashboard that provides insights into 
    - Anomaly detection for market shifts
    - Natural language generation for market reports
 
-## Appendix: Database Dictionary
-
-### Staging Schema
-
-**Table: staging.property_sales_raw**
-- Contains raw data with minimal transformations
-- Preserves original structure from source files
-- Includes all columns from NYC Finance Department
-
-### Cleansed Schema
-
-**Table: cleansed.property_sales_clean**
-- Standardized and validated property sales data
-- Clean addresses and normalized building classes
-- Filtered for valid transactions
-
-### Dimensional Model
-
-**Fact Table: dm.fact_property_sales**
-- sale_id (PK)
-- sale_price
-- sale_date_key (FK)
-- property_id (FK)
-- location_id (FK)
-
-**Dimension Tables:**
-- dm.dim_date
-- dm.dim_location
-- dm.dim_property
-
-This dimensional model supports flexible analysis across multiple dimensions while maintaining data integrity and performance.
